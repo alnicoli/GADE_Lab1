@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        //_vy = _vy - 0.0003f;
+        _vy = _vy - 0.0003f;
         
         if (Input.GetKey("right")) {
             _vx = _vx + 0.001f;

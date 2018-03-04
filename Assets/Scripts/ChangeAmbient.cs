@@ -18,7 +18,6 @@ public class ChangeAmbient : MonoBehaviour {
 				RenderSettings.ambientIntensity = RenderSettings.ambientIntensity - _step;
 			}
 		}
-		Debug.Log(RenderSettings.ambientIntensity);
 	}
 	
 	void OnTriggerEnter(Collider other) {
