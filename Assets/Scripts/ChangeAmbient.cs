@@ -6,7 +6,7 @@ using UnityEngine;
 public class ChangeAmbient : MonoBehaviour {
 	private bool _changing = false;
 	private float _step = 0.001f;
-	private float _darkness = 0.075f;
+	private float _darkness = 0.2f;
 	
 	private void Update() {
 		if (_changing) {
